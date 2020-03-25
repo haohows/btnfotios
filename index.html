@@ -1,135 +1,148 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
-  <div class="aiqua">
-    <div class="aiqua__image_container">
-        <img class="aiqua__image" src="https://efshop3-wabow.cdn.hinet.net/files/1/products/77643_710_E88AA5E9BB83.jpg?v=3291" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="aiqua">
+      <div class="aiqua__image_container">
+        <img
+          class="aiqua__image"
+          src="https://efshop3-wabow.cdn.hinet.net/files/1/products/77643_710_E88AA5E9BB83.jpg?v=3291"
+        />
+      </div>
+
+      <div class="aiqua__content">
+        <h3 class="aiqua__title">換季限定! 超值薦</h3>
+        <p class="aiqua__text">
+          竹節棉背心！$133
+        </p>
+        <span class="aiqua__button" type="button">立即購買</span>
+      </div>
+      <a
+        class="aiqua__link"
+        href="https://www.efshop.com.tw/product/77654?utm_source=AIQUA_RE&utm_medium=AIQUA_RE_VEST133_0325&utm_campaign=AIQUA_RE_VEST133_0325"
+      ></a>
     </div>
 
-    <div class="aiqua__content">
-      <h3 class="aiqua__title">換季限定! 超值薦</h3>
-      <p class="aiqua__text">
-        竹節棉背心！$133
-      </p>
-      <span class="aiqua__button" type="button">立即購買</span>
-    </div>
-    <a class="aiqua__link" href="https://www.efshop.com.tw/product/77654?utm_source=AIQUA_RE&utm_medium=AIQUA_RE_VEST133_0325&utm_campaign=AIQUA_RE_VEST133_0325"></a>
-</div>
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      .aiqua,
+      .aiqua *,
+      .aiqua *:before,
+      .aiqua *:after,
+      .qg-inweb-container {
+        box-sizing: border-box;
+        word-break: break-all;
+      }
 
-<link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
-<style>
-  .aiqua,
-  .aiqua *,
-  .aiqua *:before,
-  .aiqua *:after,
-  .qg-inweb-container {
-    box-sizing: border-box;
-    word-break: break-all;
-  }
+      .qg-inweb-container {
+        position: fixed;
+        top: 30px;
+        right: 30px;
 
-  .qg-inweb-container {
-    position: fixed;
-    top: 30px;
-    right: 30px;
+        width: 432px;
+        height: 144px;
+        overflow: hidden;
 
-    width: 432px;
-    height: 144px;
-    overflow: hidden;
+        border-radius: 4px;
+        box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.3);
 
-    border-radius: 4px;
-    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.3);
+        /* MAY CHANGE COLOR HERE! */
+        background-color: #fff;
+        color: #000;
+      }
 
-    /* MAY CHANGE COLOR HERE! */
-    background-color: #fff;
-    color: #000;
-  }
+      .qg-inweb-close {
+        background-color: transparent;
+        top: 5px;
+      }
 
-  .qg-inweb-close {
-    background-color: transparent;
-    top: 5px;
-  }
+      .aiqua {
+        position: relative;
+        display: flex;
+        font-family: "Open Sans", sans-serif;
+        font-size: 14px;
+        height: 100%;
+      }
 
-  .aiqua {
-    position: relative;
-    display: flex;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 14px;
-    height: 100%;
-  }
-  
-  .aiqua .aiqua__link {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-  }
+      .aiqua .aiqua__link {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+      }
 
-  .aiqua .aiqua__image {
-    display: block;
-    margin: 0 auto;
-    max-height: 100%; 
-    max-width: 192px;
-  }
+      .aiqua .aiqua__image {
+        display: block;
+        margin: 0 auto;
+        max-height: 100%;
+        max-width: 192px;
+      }
 
-  .aiqua .aiqua__content {
-    margin: 5px 5px 0 10px;
-  }
-  
-  .aiqua .aiqua__title {
-    overflow: hidden;
-    font-size: 15px;
-    width: 134px;
-    height: 19px;
-    margin: 0;
-  }
+      .aiqua .aiqua__content {
+        margin: 5px 5px 0 10px;
+      }
 
-  .aiqua .aiqua__text {
-    font-size: 14px;
-    line-height: 20px;
-    color: #868686;
-    margin: 8px 0 5px;
-    height: 70px;
-    overflow: hidden;
-  }
+      .aiqua .aiqua__title {
+        overflow: hidden;
+        font-size: 15px;
+        width: 134px;
+        height: 19px;
+        margin: 0;
+      }
 
-  .aiqua .aiqua__button {
-    padding: 5px 9px;
-    border-radius: 2px;
-    font-size: 12px;
-    text-align: center;
+      .aiqua .aiqua__text {
+        font-size: 14px;
+        line-height: 20px;
+        color: #868686;
+        margin: 8px 0 5px;
+        height: 70px;
+        overflow: hidden;
+      }
 
-    /* MAY CHANGE COLOR HERE! */
-    background-color: #FF9CBA;
-    color: #fff;
-  }
+      .aiqua .aiqua__button {
+        padding: 5px 9px;
+        border-radius: 2px;
+        font-size: 12px;
+        text-align: center;
 
-  @media (max-width: 479px) {
-    .qg-inweb-container {      
-      top: 0;
-      right: 0;
-      left: 0;
+        /* MAY CHANGE COLOR HERE! */
+        background-color: #ff9cba;
+        color: #fff;
+      }
 
-      width: 100%;
-      height: 90px;
+      [type="reset"],
+      [type="submit"],
+      button,
+      html [type="button"] {
+        -webkit-appearance: button;
+      }
 
-      border-radius: 0;
-    }
+      @media (max-width: 479px) {
+        .qg-inweb-container {
+          top: 0;
+          right: 0;
+          left: 0;
 
-    .aiqua .aiqua__image_container {
-      width: 120px;
-    }
+          width: 100%;
+          height: 90px;
 
-    .aiqua .aiqua__text {
-      height: 32px;
-    }
-  }
-</style>
+          border-radius: 0;
+        }
 
+        .aiqua .aiqua__image_container {
+          width: 120px;
+        }
 
-
-</body>
+        .aiqua .aiqua__text {
+          height: 32px;
+        }
+      }
+    </style>
+  </body>
 </html>
